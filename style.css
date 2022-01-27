@@ -84,17 +84,5 @@
     display: inline-block;
     top: 0;
     left: 0;
-    position: relative;
+    position: relative; /* Можно убрать и затенение будет видно */
 }
-
-/* .popup__lightbox {
-    width: 100vh;
-    height: 100vw;
-    background-color: #0004;
-    overflow: hidden;
-    position: fixed;
-    backdrop-filter: blur(10px);
-    left: 0px;
-    top: 0px;
-    display: none;
-} */
