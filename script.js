@@ -42,7 +42,6 @@ document.addEventListener("keydown", function(event){
 
 // Закрытие popup при нажатии вне
 lightBox.addEventListener("click", function(event) {
-    event.preventDefault();
     document.querySelector(".popup_active").classList.remove("popup_active")
     lightBox.classList.remove("lightbox_active")
 })
